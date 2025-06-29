@@ -23,3 +23,4 @@ MIT License.
 ## Technologies
 . Hypertext MarkUp Language(HTML)
 . Cascading Style Sheet
+. Javascript
