@@ -6,6 +6,7 @@ https://barakasamuel.github.io/Worldly-Wonders/
 ## Table of Content
 - Description
 - Set up instructions
+- License
 
 ## Description
 A single-page app to explore ancient and modern wonders of the world. Users can search wonders using Wikipedia’s public API, view a gallery, and discover fun facts.
