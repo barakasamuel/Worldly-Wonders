@@ -21,3 +21,4 @@ A single-page app to explore ancient and modern wonders of the world. Users can 
 MIT License.
 
 ## Technologies
+. Hypertext MarkUp Language(HTML)
