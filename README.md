@@ -1,6 +1,6 @@
 https://barakasamuel.github.io/Worldly-Wonders/
 
-# World Wonder Explorer 
+# Wonders Of The World 
 **Author:** Samuel Baraka  
 
 ## Description
