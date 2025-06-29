@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World Wonder Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="mmi">
+    <section>
+      <div class="container">
+        <h1>Wonders Of The World 🌍</h1>
+      </div>
+    </section>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="#" onclick="showPage('landpage')">Land Page</a></li>
+        <li><a href="#" onclick="showPage('main')">Explore</a></li>
+        <li><a href="#" onclick="showPage('gallery')">Gallery</a></li>
+        <li><a href="#" onclick="showPage('facts')">Facts</a></li>
+      </ul>
+    </nav>
+
+    
+    <section id="landpage" class="page" style="display: none;">
+      <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+          <source src="wonders.mp4" type="video/mp4" />
+        </video>
+        <div class="video-overlay">
+          <p>The world is full of awe-inspiring locations, often referred to as wonders of the world</p>
+          <h1>Seven Wonders of The Ancient World</h1>
+          <ul>
+            <li>Great Pyramid of Giza</li>
+            <li>Hanging Gardens of Babylon</li>
+            <li>Statue of Zeus at Olympia</li>
+            <li>Temple of Artemis at Ephesus</li>
+            <li>Mausoleum at Halicarnassus</li>
+            <li>Colossus of Rhodes</li>
+            <li>Lighthouse of Alexandria</li>
+          </ul>
+          <h1>New Seven Wonders of The World</h1>
+          <ul>
+            <li>Great Wall of China</li>
+            <li>Petra</li>
+            <li>Christ the Redeemer</li>
+            <li>Machu Picchu</li>
+            <li>Chichen Itza</li>
+            <li>Roman Colosseum</li>
+            <li>Taj Mahal</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="main" class="page" style="display: none;">
+      <input type="text" id="searchInput" placeholder="Type a wonder..." />
+      <button onclick="searchWonder()">Explore</button>
+      <div id="results"></div>
+    </section>
+
+    
+    <section id="gallery" class="page" style="display: none;">
+      <h1>Wonders Gallery</h1>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+  
+    <section id="facts" class="page" style="display: none;">
+      <h1>Did You Know?</h1>
+      <p id="randomFact">Click the button to reveal a fun fact about wonders.</p>
+      <button onclick="showRandomFact()">Show Fact</button>
+    </section>
+
+  
+    <div id="imageModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImg">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
