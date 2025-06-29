@@ -1,9 +1,9 @@
-https://barakasamuel.github.io/Worldly-Wonders/
+## https://barakasamuel.github.io/Worldly-Wonders/
 
 # Wonders Of The World 
 **Author:** Samuel Baraka  
 
-## Table of Content
+## Table of Content 
 - Description
 - Set up instructions
 - License
