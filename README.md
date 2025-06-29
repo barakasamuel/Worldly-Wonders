@@ -19,3 +19,5 @@ A single-page app to explore ancient and modern wonders of the world. Users can 
 
 ## License
 MIT License.
+
+## Technologies
